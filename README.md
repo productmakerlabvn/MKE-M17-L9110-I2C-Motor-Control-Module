@@ -63,7 +63,7 @@ Nếu sử dụng động cơ RC Servo 5VDC công suất lớn có thể gây s�
 
 <table><thead>
   <tr>
-    <th>MKE-M10 / Cổng cấp nguồn Vm</th>
+    <th>MKE-M17 / Cổng cấp nguồn Vm</th>
     <th>Ghi chú</th>
   </tr></thead>
 <tbody>
@@ -84,10 +84,9 @@ Nếu sử dụng động cơ RC Servo 5VDC công suất lớn có thể gây s�
 
 #### Arduino
 
-- [Mạch Vietduino Uno (Arduino Uno Compatible)](https://www.makerlab.vn/vuno)
-- [Mạch MakerEdu Shield for Vietduino](https://www.makerlab.vn/vietduinosd)
-- [Mạch màn hình MKE-M07 LCD1602 I2C Display Module](https://www.makerlab.vn/mkem07)
-- [Động cơ RC Servo 9G](https://hshop.vn/dong-co-rc-servo-9g)
+- 1 x [Mạch Vietduino Uno (Arduino Uno Compatible)](https://www.makerlab.vn/vuno)
+- 2 x [Động cơ RC Servo 9G](https://hshop.vn/dong-co-rc-servo-9g)
+- 2 x [Động cơ DC giảm tốc V1 Dual Shaft Plastic Geared TT Motor](https://hshop.vn/dong-co-dc-giam-toc-v1-dual-shaft-plastic-geared-tt-motor)
 
 #### mBlock
 
