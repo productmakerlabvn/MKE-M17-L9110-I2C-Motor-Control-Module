@@ -68,12 +68,8 @@ Nếu sử dụng động cơ RC Servo 5VDC công suất lớn có thể gây s�
   </tr></thead>
 <tbody>
   <tr>
-    <td>GND</td>
-    <td>Chân cấp nguồn âm 0VDC</td>
-  </tr>
-  <tr>
-    <td>VM (6~12V)</td>
-    <td>Chân cấp nguồn 6~12VDC cho động cơ hoạt động<br>(kết nối jumber vào chân 5V thì lấy nguồn 5V nuôi động cơ hoặc lấy nguồn ngoài thì nối +VDC vào chân Vm, 0VDC vào chân GND)</td>
+    <td>VM (5~10V)</td>
+    <td>Chân cấp nguồn 5~10VDC cho động cơ hoạt động<br>(kết nối jumber vào chân 5V thì driver lấy nguồn 5V nuôi động cơ hoặc lấy nguồn ngoài thì nối +VDC vào chân Vm, 0VDC vào chân GND)</td>
   </tr>
   <tr>
     <td>5V</td>
