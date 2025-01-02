@@ -1,21 +1,21 @@
-# Mạch điều khiển động cơ MKE-M10 I2C motor control module
+# Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module
 
-![](/image/MKE_M10_1.jpg)
+<!-- ![](/image/MKE_M10_1.jpg) -->
 
 ## Giới thiệu
 
-Mạch điều khiển động cơ MKE-M10 I2C motor control module được sử dụng để điều khiển cùng lúc 2 x động cơ DC và 2 x động cơ RC Servo trong các ứng dụng điều khiển robot, xe tự hành, mạch sử dụng giao tiếp I2C nên dễ dàng kết nối và sử dụng với chỉ 2 chân giao tiếp I2C là SDA (data) và SCL (clock).
+Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module được sử dụng để điều khiển cùng lúc 2 x động cơ DC và 2 x động cơ RC Servo trong các ứng dụng điều khiển robot, xe tự hành, mạch sử dụng giao tiếp I2C nên dễ dàng kết nối và sử dụng với chỉ 2 chân giao tiếp I2C là SDA (data) và SCL (clock).
 
-Mạch điều khiển động cơ MKE-M10 I2C motor control module thuộc hệ sinh thái phần cứng Robotics MakerEdu với chuẩn kết nối connector XH2.54, cảm biến có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm giao tiếp ở cả hai mức điện áp 3.3VDC / 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
+Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module thuộc hệ sinh thái phần cứng Robotics MakerEdu với chuẩn kết nối connector XH2.54, cảm biến có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm giao tiếp ở cả hai mức điện áp 3.3VDC / 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
 
 > **Cảnh báo:**  
 Nếu sử dụng động cơ RC Servo 5VDC công suất lớn có thể gây sụt áp, quá tải, chạy không ổn định, Quý Khách cần mua thêm Mạch cấp nguồn bổ sung MKE-M12 5VDC 5A power supply module với khả năng cấp nguồn 5VDC với dòng điện cung cấp tối đa lên đến 5A cho cổng POWER+.
 
 ## Thông số kỹ thuật
 
-- Điện áp cấp cho mạch hoạt động: nguồn 5VDC từ cổng POWER+ (IN)
-- Điện áp cấp cho động cơ hoạt động VM (V_Motor): nguồn VIN 6~12VDC từ cổng POWER+ (IN)
-- Dòng cấp tối đa cho mỗi động cơ: 1.2A
+- Điện áp cấp cho mạch hoạt động: nguồn 5VDC từ cổng I2C
+- Điện áp cấp cho động cơ hoạt động VM (V_Motor): 2.5~12VDC
+- Dòng cấp tối đa cho mỗi động cơ: 800mA
 - Chuẩn giao tiếp: Digital I2C
 - Các chân giao tiếp: SDA (Serial Data) / SCL (Serial Clock)
 - Điện áp giao tiếp: TTL 3.3/5VDC
@@ -24,21 +24,21 @@ Nếu sử dụng động cơ RC Servo 5VDC công suất lớn có thể gây s�
 - Sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
 - Bổ sung thêm các thiết kế ổn định, chống nhiễu.
 - Chuẩn kết nối:
-- 2 x Conector XH2.54 4Pins (cổng I2C và POWER+ (IN))
-- 2 x Conector Domino 2P (MotorA và MotorB)
-- 2 x Male Header 3P 2.54mm (RC Servo S1 và S2)
+  - 1 x Conector XH2.54 4Pins (cổng I2C)
+  - 2 x Conector Domino 2P (MotorA và MotorB)
+  - 2 x Male Header 3P 2.54mm (RC Servo S1 và S2)
 - Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nhất khi sử dụng với các mạch điều khiển trung tâm của MakerEdu và MakerEdu Shield.
 
 ## Kích thước
 
-![](/image/MKE_M10_2.jpg)
+<!-- ![](/image/MKE_M10_2.jpg) -->
 
 ## Các chân tín hiệu
 
-![](/image/MKE_M10_3.jpg)
+<!-- ![](/image/MKE_M10_3.jpg) -->
 <table><thead>
   <tr>
-    <th>MKE-M10 / Cổng tín hiệu I2C</th>
+    <th>MKE-M17 / Cổng tín hiệu I2C</th>
     <th>Ghi chú</th>
   </tr></thead>
 <tbody>
@@ -47,8 +47,8 @@ Nếu sử dụng động cơ RC Servo 5VDC công suất lớn có thể gây s�
     <td>Chân cấp nguồn âm 0VDC</td>
   </tr>
   <tr>
-    <td>NC</td>
-    <td>Không kết nối (not connect)</td>
+    <td>5V</td>
+    <td>Chân cấp nguồn dương 5VDC</td>
   </tr>
   <tr>
     <td>SDA</td>
@@ -63,7 +63,7 @@ Nếu sử dụng động cơ RC Servo 5VDC công suất lớn có thể gây s�
 
 <table><thead>
   <tr>
-    <th>MKE-M10 / Cổng cấp nguồn Power+ (IN)</th>
+    <th>MKE-M10 / Cổng cấp nguồn Vm</th>
     <th>Ghi chú</th>
   </tr></thead>
 <tbody>
@@ -73,40 +73,11 @@ Nếu sử dụng động cơ RC Servo 5VDC công suất lớn có thể gây s�
   </tr>
   <tr>
     <td>VM (6~12V)</td>
-    <td>Chân cấp nguồn 6~12VDC cho động cơ hoạt động<br>(lấy từ nguồn VIN của cổng POWER+)</td>
+    <td>Chân cấp nguồn 6~12VDC cho động cơ hoạt động<br>(kết nối jumber vào chân 5V thì lấy nguồn 5V nuôi động cơ hoặc lấy nguồn ngoài thì nối +VDC vào chân Vm, 0VDC vào chân GND)</td>
   </tr>
   <tr>
     <td>5V</td>
-    <td>Chân nguồn 5VDC cấp cho mạch hoạt động<br>(lấy từ nguồn 5VDC của cổng POWER+)</td>
-  </tr>
-  <tr>
-    <td>NC</td>
-    <td>Không kết nối (not connect)</td>
-  </tr>
-</tbody>
-</table>
-
-<table><thead>
-  <tr>
-    <th>MKE-M10 / Cổng cấp nguồn Power+ (IN)</th>
-    <th>Ghi chú</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td>GND</td>
-    <td>Chân cấp nguồn âm 0VDC</td>
-  </tr>
-  <tr>
-    <td>VM (6~12V)</td>
-    <td>Chân cấp nguồn 6~12VDC cho động cơ hoạt động<br>(lấy từ nguồn VIN của cổng POWER+)</td>
-  </tr>
-  <tr>
-    <td>5V</td>
-    <td>Chân nguồn 5VDC cấp cho mạch hoạt động<br>(lấy từ nguồn 5VDC của cổng POWER+)</td>
-  </tr>
-  <tr>
-    <td>NC</td>
-    <td>Không kết nối (not connect)</td>
+    <td>Chân nguồn 5VDC</td>
   </tr>
 </tbody>
 </table>
