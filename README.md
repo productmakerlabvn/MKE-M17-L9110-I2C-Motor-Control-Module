@@ -81,47 +81,23 @@ Nếu sử dụng động cơ RC Servo 5VDC công suất lớn có thể gây s�
 ## Hướng dẫn sử dụng
 
 ### Hướng dẫn sử dụng với Arduino (Code C)
-
-![](/image/circuit.png)
-
-- 1 x [Mạch Vietduino Uno (Arduino Uno Compatible)](https://www.makerlab.vn/vuno)
-- 2 x [Động cơ RC Servo 9G](https://hshop.vn/dong-co-rc-servo-9g)
-- 2 x [Động cơ DC giảm tốc V1 Dual Shaft Plastic Geared TT Motor](https://hshop.vn/dong-co-dc-giam-toc-v1-dual-shaft-plastic-geared-tt-motor)
-
-[tải chương trình mẫu tại đây](/arduino)
-
-#### mBlock
-
-<!-- - [Mạch MakerEdu Creator (Arduino Uno Compatible)](https://www.makerlab.vn/creator)
-- [Mạch màn hình MKE-M07 LCD1602 I2C Display Module](https://www.makerlab.vn/mkem07)
-- [Động cơ RC Servo 9G](https://hshop.vn/dong-co-rc-servo-9g) -->
-
-#### Micro:bit:
-
-<!-- - [Mạch Micro:bit V2](https://hshop.vn/products/kit-hoc-lap-trinh-stem-cho-tre-em-micro-bit-v2) hoặc các phiên bản tương thích.
-- [Mạch MakerEdu Shield for Micro:bit](https://www.makerlab.vn/microbitsd)
-- [Mạch màn hình MKE-M07 LCD1602 I2C Display Module](https://www.makerlab.vn/mkem07)
-- [Động cơ RC Servo 9G](https://hshop.vn/dong-co-rc-servo-9g) -->
+- Thiết bị sử dụng:
+  - 1 x [Mạch Vietduino Uno (Arduino Uno Compatible)](https://www.makerlab.vn/vuno)
+  - 2 x [Động cơ RC Servo 9G](https://hshop.vn/dong-co-rc-servo-9g)
+  - 2 x [Động cơ DC giảm tốc V1 Dual Shaft Plastic Geared TT Motor](https://hshop.vn/dong-co-dc-giam-toc-v1-dual-shaft-plastic-geared-tt-motor)
+- Sơ đồ kết nối:
+  ![](/image/circuit.png)
+- Chương trình mẫu: [tải chương trình mẫu tại đây](/arduino)
 
 ### Hướng dẫn lập trình với mBlock (kéo thả khối)
-
-<!-- [Hướng dẫn cài đặt phần mềm, nạp chương trình, cài đặt Extension mBlock cơ bản.](https://github.com/makerlabvn/mBlock-MakerEdu-Creator)
-
-- Tải và cài đặt phần mềm mBlock 5 ([Windows](https://www.mediafire.com/file/ma55iajd7glwmbo/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Windows.zip/file) / [Mac Intel](https://www.mediafire.com/file/pjfngy6d7ktb55f/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Mac_Intel.zip/file) / [Mac M1M2](https://www.mediafire.com/file/mfdkgpgnpa7uv2s/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Mac_M1M2.zip/file))
-- Thêm Device "MakerEdu Creator" by MakerEduVN
-- Thêm Extension "Upload Mode Broadcast" by mBlock Official
-- Thêm Extension "MakerEdu Hardware" by MakerEduVN
-- Mở [chương trình mẫu tại đây](/mBlock5), kết nối MakerEdu Creator với máy tính và nạp chương trình.
-- kết nối module MKE-M10 vào cổng [I2C] và màn hình LCD vào cổng [I2C] trên MakerEdu Creator, kết nối động cơ RC Servo vào module MKE-M10, cấp nguồn qua cổng USB của MakerEdu Creator để thấy chương trình hoạt động. -->
+- Thiết bị sử dụng:
+- Sơ đồ kết nối:
+- Chương trình mẫu:
 
 ### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
-
-<!-- [Hướng dẫn nạp chương trình, cài đặt Extension Micro:bit cơ bản.](https://github.com/makerlabvn/MakeCode-microbit)
-
-- Khởi động phần mềm MakeCode tại: [https://makecode.microbit.org/](https://makecode.microbit.org/)
-- Chọn My Projects / Import / Import URL theo đường link của chương trình mẫu: [https://github.com/devmakerlabvn/makecode-mke-s01-ultrasonic-distance-sensor](https://github.com/devmakerlabvn/makecode-mke-s01-ultrasonic-distance-sensor)
-- Kết nối Micro:bit với máy tính và nạp chương trình.
-- Kết nối mạch Micro:bit với MakerEdu Shield, và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, **cấp nguồn qua cổng USB của MakerEdu Shield** để thấy chương trình hoạt động. -->
+- Thiết bị sử dụng:
+- Sơ đồ kết nối:
+- Chương trình mẫu:
 
 ## Hỗ trợ và liên hệ
 
