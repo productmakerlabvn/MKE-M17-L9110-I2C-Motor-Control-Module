@@ -8,9 +8,6 @@ Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module đư�
 
 Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module thuộc hệ sinh thái phần cứng Robotics MakerEdu với chuẩn kết nối connector XH2.54, cảm biến có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm giao tiếp ở cả hai mức điện áp 3.3VDC / 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
 
-> **Cảnh báo:**  
-Nếu sử dụng động cơ RC Servo 5VDC công suất lớn có thể gây sụt áp, quá tải, chạy không ổn định, Quý Khách cần mua thêm Mạch cấp nguồn bổ sung MKE-M12 5VDC 5A power supply module với khả năng cấp nguồn 5VDC với dòng điện cung cấp tối đa lên đến 5A cho cổng POWER+.
-
 ## Thông số kỹ thuật
 
 - Điện áp cấp cho mạch hoạt động: nguồn 5VDC từ cổng I2C
@@ -63,13 +60,13 @@ Nếu sử dụng động cơ RC Servo 5VDC công suất lớn có thể gây s�
 
 <table><thead>
   <tr>
-    <th>MKE-M17 / Cổng cấp nguồn Vm</th>
+    <th>MKE-M17 / Cổng cấp nguồn VM</th>
     <th>Ghi chú</th>
   </tr></thead>
 <tbody>
   <tr>
     <td>VM (5~10V)</td>
-    <td>Chân cấp nguồn 5~10VDC cho động cơ hoạt động<br>(kết nối jumber vào chân 5V thì driver lấy nguồn 5V nuôi động cơ hoặc lấy nguồn ngoài thì nối +VDC vào chân Vm, 0VDC vào chân GND)</td>
+    <td>Chân cấp nguồn 5~10VDC cho động cơ hoạt động<br>(nếu kết nối jumber vào chân 5V thì driver lấy nguồn 5V nuôi động cơ. nếu lấy nguồn ngoài thì nối +VDC vào chân VMM, 0VDC vào chân GND)</td>
   </tr>
   <tr>
     <td>5V</td>
