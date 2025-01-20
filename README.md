@@ -1,6 +1,6 @@
 # Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module
 
-<!-- ![](/image/MKE_M10_1.jpg) -->
+![](/image/MKE_M17_1.jpg)
 
 ## Giới thiệu
 
@@ -28,11 +28,11 @@ Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module thuộ
 
 ## Kích thước
 
-<!-- ![](/image/MKE_M10_2.jpg) -->
+![](/image/MKE_M10_2.jpg)
 
 ## Các chân tín hiệu
 
-<!-- ![](/image/MKE_M10_3.jpg) -->
+![](/image/MKE_M17_3.jpg)
 <table><thead>
   <tr>
     <th>MKE-M17 / Cổng tín hiệu I2C</th>
@@ -66,7 +66,8 @@ Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module thuộ
 <tbody>
   <tr>
     <td>VM (5~10V)</td>
-    <td>Chân cấp nguồn 5~10VDC cho động cơ hoạt động<br>(nếu kết nối jumber vào chân 5V thì driver lấy nguồn 5V nuôi động cơ. nếu lấy nguồn ngoài thì nối +VDC vào chân VMM, 0VDC vào chân GND)</td>
+    <td>Chân cấp nguồn 5~10VDC cho động cơ hoạt động<br>( 
+      nếu kết nối jumber vào chân 5V thì driver lấy nguồn 5V nuôi động cơ. Nếu lấy nguồn ngoài thì nối +VDC vào chân VM, 0VDC vào chân GND)</td>
   </tr>
   <tr>
     <td>5V</td>
