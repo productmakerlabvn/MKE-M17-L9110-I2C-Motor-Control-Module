@@ -85,7 +85,7 @@ Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module thuộ
   - 2 x [Động cơ RC Servo 9G](https://hshop.vn/dong-co-rc-servo-9g)
   - 2 x [Động cơ DC giảm tốc V1 Dual Shaft Plastic Geared TT Motor](https://hshop.vn/dong-co-dc-giam-toc-v1-dual-shaft-plastic-geared-tt-motor)
 - Sơ đồ kết nối:
-  ![](/image/circuit_.png)
+  ![](/image/circuit_image.png)
 - Chương trình mẫu: [tải chương trình mẫu tại đây](/arduino)
 
 ### Hướng dẫn lập trình với mBlock (kéo thả khối)
