@@ -18,13 +18,11 @@ Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module thuộ
 - Điện áp giao tiếp: TTL 3.3/5VDC
 - Địa chỉ I2C: 64~68 địa chỉ (có thể cài đặt hoặc thay đổi trong code)
 - Điều khiển được 2 động cơ DC và 2 động cơ RC Servo cùng lúc.
-- Sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
 - Bổ sung thêm các thiết kế ổn định, chống nhiễu.
 - Chuẩn kết nối:
   - 1 x Conector XH2.54 4Pins (cổng I2C)
   - 2 x Conector Domino 2P (MotorA và MotorB)
   - 2 x Male Header 3P 2.54mm (RC Servo S1 và S2)
-- Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nhất khi sử dụng với các mạch điều khiển trung tâm của MakerEdu và MakerEdu Shield.
 
 ## Kích thước
 
@@ -58,23 +56,9 @@ Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module thuộ
 </tbody>
 </table>
 
-<table><thead>
-  <tr>
-    <th>MKE-M17 / Cổng cấp nguồn VM</th>
-    <th>Ghi chú</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td>VM (5~10V)</td>
-    <td>Chân cấp nguồn 5~10VDC cho động cơ hoạt động<br>( 
-      nếu kết nối jumber vào chân 5V thì driver lấy nguồn 5V nuôi động cơ. Nếu lấy nguồn ngoài thì nối +VDC vào chân VM, 0VDC vào chân GND)</td>
-  </tr>
-  <tr>
-    <td>5V</td>
-    <td>Chân nguồn 5VDC</td>
-  </tr>
-</tbody>
-</table>
+### Chú ý:
+  - nếu động cơ sử dụng nguồn 5VDC thì kết nối chân VM với chân 5V bằng jumper.
+  - nếu động cơ sử dụng nguồn từ 5-10VDC thì không cần cắm jumper.
 
 ## Hướng dẫn sử dụng
 
@@ -88,7 +72,7 @@ Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module thuộ
   ![](/image/circuit_image.png)
 - Chương trình mẫu: [tải chương trình mẫu tại đây](/arduino)
 
-### Hướng dẫn lập trình với mBlock (kéo thả khối)
+<!-- ### Hướng dẫn lập trình với mBlock (kéo thả khối)
 - Thiết bị sử dụng:
 - Sơ đồ kết nối:
 - Chương trình mẫu:
@@ -96,7 +80,7 @@ Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module thuộ
 ### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
 - Thiết bị sử dụng:
 - Sơ đồ kết nối:
-- Chương trình mẫu:
+- Chương trình mẫu: -->
 
 ## Hỗ trợ và liên hệ
 
