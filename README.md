@@ -13,7 +13,7 @@ Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module thuộ
 - Điện áp cấp cho mạch hoạt động: nguồn 5VDC từ cổng I2C
 - Điện áp cấp cho động cơ hoạt động VM (V_Motor): 5~10VDC
 - Dòng cấp tối đa cho mỗi động cơ: 800mA
-- Chuẩn giao tiếp: Digital I2C
+- Chuẩn giao tiếp: I2C
 - Các chân giao tiếp: SDA (Serial Data) / SCL (Serial Clock)
 - Điện áp giao tiếp: TTL 3.3/5VDC
 - Địa chỉ I2C: 64~68 địa chỉ (có thể cài đặt hoặc thay đổi trong code)
@@ -85,7 +85,7 @@ Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module thuộ
 ## Hỗ trợ và liên hệ
 
 - Website: [https://www.makerlab.vn/](https://www.makerlab.vn/)
-- Facebook: [https://www.facebook.com/makerlabvn](https://www.facebook.com/makerlabvn)
+- Facebook: [https://www.facebook.com/makerlabvn](https://www.facebook.com/makerlabvn) 
 
 ## Nhà phân phối
 
