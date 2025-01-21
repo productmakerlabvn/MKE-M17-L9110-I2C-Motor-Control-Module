@@ -28,7 +28,7 @@ Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module thuộ
 
 ## Kích thước
 
-![](/image/MKE_M10_2.jpg)
+![](/image/MKE_M17_2.png)
 
 ## Các chân tín hiệu
 
@@ -81,10 +81,11 @@ Mạch điều khiển động cơ MKE-M17 L9110 I2C motor control module thuộ
 ### Hướng dẫn sử dụng với Arduino (Code C)
 - Thiết bị sử dụng:
   - 1 x [Mạch Vietduino Uno (Arduino Uno Compatible)](https://www.makerlab.vn/vuno)
+  - 1 x [Mạch MakerEdu Shield for Vietduino](https://hshop.vn/arduino-makeredu-shield)
   - 2 x [Động cơ RC Servo 9G](https://hshop.vn/dong-co-rc-servo-9g)
   - 2 x [Động cơ DC giảm tốc V1 Dual Shaft Plastic Geared TT Motor](https://hshop.vn/dong-co-dc-giam-toc-v1-dual-shaft-plastic-geared-tt-motor)
 - Sơ đồ kết nối:
-  ![](/image/circuit.png)
+  ![](/image/circuit_.png)
 - Chương trình mẫu: [tải chương trình mẫu tại đây](/arduino)
 
 ### Hướng dẫn lập trình với mBlock (kéo thả khối)
